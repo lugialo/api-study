@@ -13,6 +13,7 @@
       try {
         const response = await fetch("http://localhost:4567/");
         console.log(response);
+        const data = await response.json();
       } catch (error) {
         console.log("ae ae");
       }
